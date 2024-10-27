@@ -43,19 +43,22 @@ p {
   width: 30%;
   height: 300px;
   background: cornflowerblue;
-  float: left;
+  display: inline-block;
+  /* float: left; */
 }
 
 .right-content {
   width: 70%;
   height: 300px;
   background: coral;
-  float: left;
+  display: inline-block;
+  vertical-align: top;
+  /* float: left; */
 }
 
 .footer {
   width: 100%;
   height: 100px;
   background: gray;
-  clear: both;
+  /* clear: both; */
 }
