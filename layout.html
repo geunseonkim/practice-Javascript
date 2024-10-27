@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <!-- float을 이용한 layout 만들기
+    가로 배치하는 법만 알면 원하는 레이아웃 다 만들 수 있음.
+
+wrapper
+container // 최대 width를 조정할 때 좋음
+
+header // width: 100% (부모 태그 width의 100%), height: 50px
+
+left-menu // width: 20%, height: 400px, float: left(요소를 붕 띄워서 왼쪽 정렬)
+right-content // width: 80%, height: 400px, float: left (or right // 어차피 한쪽 정렬하면 상관 no)
+
+footer // width: 100%, height: 100px, 안 보임. (why? left-menu랑 right-content가 공중에 떠 있어서 그 밑으로 들어감-> float 를 사용하면 이런 문제가 발생함 어케 해결함?)
+      // clear: both (float 다음에 오는 요소에게 주면 float으로 발생하는 이상한 현상 해결 가능) or clear: left(근데 왼쪽 준지 오른쪽 준지 기억 안나면 그냥 both)
+
+float 쓰고나서 다음에 오는 요소는 clear 주는 게 좋음 -->
+
+    <div class="container">
+      <div class="header"></div>
+      <div class="left-menu"></div>
+      <div class="right-content"></div>
+      <div class="footer"></div>
+    </div>
+  </body>
+</html>

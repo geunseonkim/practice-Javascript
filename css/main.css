@@ -1,0 +1,61 @@
+.profile {
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  font-size: 20px;
+  /* font-family: "gulim"; */
+  letter-spacing: -0.5px;
+  text-align: center;
+  font-weight: 600;
+}
+
+p {
+  text-align: center;
+}
+
+.box {
+  width: 200px;
+  background: darkgoldenrod;
+  margin: 30px;
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px black;
+}
+
+.container {
+  width: 400px;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  background: aquamarine;
+}
+
+.left-menu {
+  width: 30%;
+  height: 300px;
+  background: cornflowerblue;
+  float: left;
+}
+
+.right-content {
+  width: 70%;
+  height: 300px;
+  background: coral;
+  float: left;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background: gray;
+  clear: both;
+}
