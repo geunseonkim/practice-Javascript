@@ -100,15 +100,16 @@ input {
   font-size: 17px;
   padding-left: 10px;
   box-sizing: border-box;
-  width: 100%;
 }
 
 input[type="email"] {
   height: 40px;
+  width: 100%;
 }
 
 .section1 input {
   height: 40px;
+  width: 100%;
 }
 
 textarea {
