@@ -1,11 +1,19 @@
+div {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0px;
   font-family: "굴림", Gulim, Arial, sans-serif;
   letter-spacing: 1px;
 }
 
+html {
+  line-height: 1.5;
+}
+
 .main-background {
-  /* width: 100%; */
+  width: 100%;
   height: 900px;
   /* background-image: linear-gradient(
       to right,
@@ -71,7 +79,7 @@ body {
   width: 70%;
   max-width: 1000px;
 
-  height: 1400px;
+  height: 1550px;
   background: white;
   border: 1px solid lightgray;
   border-radius: 10px;
@@ -113,7 +121,7 @@ body {
 
 .sub-list-bottom {
   float: left;
-  margin-left: 185px;
+  margin-left: 180px;
 }
 
 .sub-title {
@@ -124,4 +132,25 @@ body {
   padding: 3px;
   /* 텍스트 수직 중앙 정렬 */
   vertical-align: middle;
+}
+
+.test-box {
+  width: 60%;
+  max-width: 600px;
+  height: 150px;
+  background: #69addd;
+
+  margin: auto;
+  padding-top: 60px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+  border-radius: 5px;
+
+  /* content 외에 padding, border까지 width에 포함시키기 */
+  /* box-sizing: border-box; */
+
+  /* box-sizing: content-box; */
+  /* 이건 포함 안 한 version */
 }

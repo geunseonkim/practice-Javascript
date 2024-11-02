@@ -1,0 +1,14 @@
+/* .text-input {
+  padding: 20px;
+  font-size: 25px;
+  border: 4px dotted greenyellow;
+  border-radius: 15px;
+} */
+
+/* input의 type 속성이 email인 요소만 찾아서 스타일 지정 */
+input[type="text"] {
+  padding: 20px;
+  font-size: 25px;
+  border: 4px dotted greenyellow;
+  border-radius: 15px;
+}
