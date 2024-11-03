@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: "Pretendard-Regular";
+  color: #3a3a3a;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.cart-background {
+  background: #96bdd4;
+  padding: 10px 50px 50px;
+  width: 100%;
+  max-width: 1050px;
+  margin: auto;
+}
+
+.cart-container {
+  background: white;
+  padding: 30px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding: 0px 20px;
+  text-align: center;
+}
+
+tr {
+  border-bottom: 1px solid lightgray;
+}
+
+/* tr:nth-child(even) {
+  background: #d6eeee;
+} */
+
+/* tr:hover {
+  background: #c5dfec;
+} */
+
+.cart-image {
+  width: 100px;
+}
+
+.cart-bottom {
+  margin-top: 40px;
+}
+
+.cart-bottom a {
+  font-size: 17px;
+}
+
+.cart-bottom a:active {
+  color: black;
+}
+
+.cart-bottom a:visited {
+  color: #c5dfec;
+}
+
+.cart-bottom button {
+  display: block;
+  margin-left: auto;
+  margin-top: -35px;
+  padding: 15px 20px;
+  border: 1px solid #4a809b;
+  border-radius: 5px;
+  background: #4a809b;
+  font-size: 16px;
+  font-weight: 600;
+  color: #c5dfec;
+}
