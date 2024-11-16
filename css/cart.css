@@ -68,7 +68,7 @@ table {
   font-size: 18px;
 }
 
-.cart-bottom a:active {
+.cart-bottom a:link {
   color: black;
 }
 
@@ -81,10 +81,24 @@ table {
   margin-left: auto;
   margin-top: -35px;
   padding: 15px 20px;
-  border: 1px solid #4a809b;
+  border: none;
   border-radius: 5px;
   background: #4a809b;
   font-size: 16px;
   font-weight: 600;
   color: #c5dfec;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #4b7285;
+}
+
+.btn:focus {
+  background-color: red;
+  outline: 2px solid blue;
+}
+
+.btn:active {
+  background-color: white;
 }
