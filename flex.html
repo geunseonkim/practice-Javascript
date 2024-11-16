@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    a:link {
+      color: orange;
+    }
+
+    a:visited {
+      color: blue;
+    }
+
+    .nav-container {
+      display: flex;
+      height: 50px;
+      align-items: center;
+      text-align: center;
+      /* padding: 10px; */
+      background: #eee;
+    }
+
+    .nav-box {
+      width: 100px;
+      background: lightgray;
+      margin: 5px;
+    }
+
+    .box {
+      flex-grow: 3;
+    }
+
+    .div-container {
+      display: flex;
+      height: 500px;
+      flex-wrap: wrap;
+    }
+
+    .div-box {
+      margin-top: 100px;
+      width: 300px;
+      background: orange;
+      margin: 5px;
+    }
+  </style>
+  <body>
+    <!-- nav: just shown semantically -->
+    <nav class="nav-container">
+      <a href="#" class="nav-box">Logo</a>
+      <div class="box"></div>
+      <a href="#" class="nav-box">Products</a>
+      <a href="#" class="nav-box">services</a>
+      <a href="#" class="nav-box">policy</a>
+    </nav>
+
+    <div class="div-container">
+      <div class="div-box">1</div>
+      <div class="div-box">2</div>
+      <div class="div-box">3</div>
+      <div class="div-box">4</div>
+      <div class="div-box">5</div>
+    </div>
+  </body>
+</html>
