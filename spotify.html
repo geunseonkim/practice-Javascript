@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+      }
+      a {
+        color: white;
+        text-decoration: none;
+      }
+      a:hover {
+        color: #1ed760;
+        cursor: pointer;
+      }
+      nav {
+        height: 80px;
+        background: black;
+        box-sizing: border-box;
+      }
+      main {
+        height: 969px;
+        background: rgb(41, 65, 171);
+        color: #1ed760;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      footer {
+        height: 530px;
+        background: black;
+      }
+
+      .nav-items {
+        display: flex;
+        color: white;
+        padding: 30px 50px;
+      }
+
+      .mr-20 {
+        margin-right: 20px;
+      }
+
+      .ft-156 {
+        font-size: 156px;
+        font-weight: 900;
+      }
+
+      .rel-l1 {
+        position: relative;
+        left: -0.5em;
+      }
+
+      .rel-r1 {
+        position: relative;
+        right: -1em;
+      }
+
+      .p-30 {
+        padding: 30px;
+      }
+
+      .btn {
+        background: #1ed760;
+        color: rgb(41, 65, 171);
+        border: none;
+        padding: 10px 20px;
+        border-radius: 15px;
+        font-size: 15px;
+        font-weight: bold;
+      }
+
+      .btn:hover {
+        transform: scale(1.05);
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="nav-items">
+      <div>Spotify</div>
+      <div style="flex-grow: 1"></div>
+      <a class="mr-20">Premium</a>
+      <a class="mr-20">Support</a>
+      <a class="mr-20">Download</a>
+      <span class="mr-20">|</span>
+      <a class="mr-20">Sign up</a>
+      <a class="mr-20">Log in</a>
+    </nav>
+    <main>
+      <!-- <div class="main-container"> -->
+      <div class="ft-156 rel-l1">Listening is</div>
+      <div class="ft-156 rel-r1">everything</div>
+      <div class="p-30">
+        millions of songs and podcasts. No credit card needed.
+      </div>
+      <div><button class="btn">get spotify free</button></div>
+      <!-- </div> -->
+    </main>
+    <footer></footer>
+  </body>
+</html>
